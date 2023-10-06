@@ -118,7 +118,10 @@ header nav {
   gap: 0.5rem;
 }
 
-#hero #source-code {
+#hero #hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-top: 0.5rem;
 }
 
