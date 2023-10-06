@@ -94,10 +94,11 @@ header img {
 
 header nav {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
   gap: 1rem;
   text-transform: uppercase;
   font-weight: 700;
-  flex-wrap: wrap;
 }
 
 #hero {
