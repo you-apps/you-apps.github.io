@@ -158,22 +158,26 @@ header nav {
   grid-template-columns: repeat(auto-fill, minmax(min(30rem, 100%), 1fr));
   gap: 1rem;
   width: 100%;
-  padding: 0 1rem;
-}
-
-#team div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
 }
 
 #apps .card {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   gap: 0.5rem;
   position: relative;
+}
+
+#apps .card img {
+  border-radius: 50%;
+  width: clamp(5rem, 10vw, 10rem);
+  height: auto;
+}
+
+#apps .card div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 1rem;
 }
 
 #apps .stars {
@@ -201,6 +205,14 @@ header nav {
 #apps a:hover,
 #team a:hover {
   text-decoration: none;
+}
+
+#team div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 #team .card {

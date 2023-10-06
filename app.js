@@ -16,8 +16,11 @@ const loadRepos = async () => {
 
     let newHTML = `
       <a class="card" href="${repo.html_url}">
-        <h3>${repo.name}</h3>
-        <p>${repo.description}</p>
+        <img src="https://raw.githubusercontent.com/you-apps/${repo.name}/main/fastlane/metadata/android/en-US/images/icon.png">
+        <div>
+          <h3>${repo.name}</h3>
+          <p>${repo.description}</p>
+        </div>
         <span class="stars"><img src="assets/star.svg">${repo.stargazers_count}</span>
       </a>
     `;
