@@ -16,8 +16,7 @@ async function loadRepos() {
   repos
     .filter(repo => repo.name.includes("You"))
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .map(repo => {
-      
+    .forEach(repo => {
       const a = x("a");
       a.className = "card";
       a.href = repo.html_url;
