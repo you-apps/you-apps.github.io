@@ -118,6 +118,10 @@ header nav {
   gap: 0.5rem;
 }
 
+#hero #desc p {
+  text-wrap: balance;
+}
+
 #hero #hero-links {
   display: flex;
   flex-wrap: wrap;
