@@ -234,10 +234,24 @@ header nav {
   height: auto;
 }
 
-#contributing .card {
+#others {
+  gap: 2rem;
+}
+
+#others .card {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: clamp(50vw, 1200px, 90vw);
+}
+
+#checksums span {
+  display: flex;
+}
+
+#checksums pre {
+  font-size: math;
+  margin-left: 0.3rem;
 }
 
 footer {
