@@ -14,7 +14,7 @@ async function fetchJson(url) {
 async function loadRepos() {
   const repos = await fetchJson(reposUrl);
   repos
-    .filter(repo => repo.name.includes("You") && repo.name !== "TriviaYou" && repo.name !=="RecordYou-Magisk-Module")
+    .filter(repo => repo.name.endsWith("You") && !repo.archived)
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
     .forEach(repo => {
       const a = x("a");
