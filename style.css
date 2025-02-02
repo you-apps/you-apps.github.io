@@ -258,6 +258,8 @@ header nav {
 #checksums pre {
   font-size: math;
   margin-left: 0.3rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 
 footer {
