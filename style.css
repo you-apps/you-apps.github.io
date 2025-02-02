@@ -138,6 +138,7 @@ header nav {
 
 .material-button:hover {
   text-decoration: none;
+  filter: brightness(0.9);
 }
 
 .card {
@@ -145,6 +146,7 @@ header nav {
   border-radius: 3rem;
   background: var(--ac);
   color: var(--bg);
+  transition: all 200ms ease-in-out;
 }
 
 .card a {
@@ -206,6 +208,10 @@ header nav {
 #team a {
   color: var(--bg);
   filter: none;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
 }
 
 #apps a:hover,
