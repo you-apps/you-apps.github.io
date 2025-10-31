@@ -1,129 +1,187 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="A collection of open source Android apps, developed with privacy in mind and beautiful design."
-    />
-    <title>You Apps</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="icon"
-      href="https://raw.githubusercontent.com/you-apps/Artwork/main/app-icons/new/YouApps.svg"
-    />
-    <script src="app.js" defer></script>
-  </head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta
+			name="description"
+			content="A collection of open source Android apps, developed with privacy in mind and beautiful design."
+		>
+		<title>You Apps</title>
+		<link rel="stylesheet" href="style.css">
+		<link
+			rel="icon"
+			href="https://raw.githubusercontent.com/you-apps/Artwork/main/app-icons/new/YouApps.svg"
+		>
+	</head>
 
-  <body>
-    <header>
-      <a href="/"
-        ><img
-          src="https://raw.githubusercontent.com/you-apps/Artwork/main/app-icons/new/YouApps.svg"
-          alt="You Apps icon"
-      /></a>
-      <nav>
-        <a href="#hero">About</a>
-        <a href="#apps">Apps</a>
-        <a href="#team">Team</a>
-        <a href="#contributing">Contributing</a>
-      </nav>
-    </header>
-    <section id="hero">
-      <div id="desc">
-        <h1>No Ads, no trackers, just You</h1>
-        <p>
-          A collection of open source Android apps, developed with privacy in
-          mind and beautiful design. No need to choose between privacy and a
-          modern UI when you can have both at the same time. Get them now via
-          GitHub or F-Droid.
-        </p>
-        <span id="hero-links">
-          <a class="material-button" href="https://github.com/you-apps"
-            >Source code</a
-          >
-          <a class="material-button" href="https://liberapay.com/bnyro"
-            >Donate</a
-          >
-        </span>
-      </div>
-      <img
-        src="https://raw.githubusercontent.com/you-apps/Artwork/main/app-icons/new/YouApps.svg"
-        alt="You Apps icon"
-      />
-    </section>
-    <section id="apps">
-      <h2>Apps</h2>
-      <div id="app-list"></div>
-      <noscript>Enable JavaScript to view the apps</noscript>
-    </section>
-    <section id="team">
-      <h2>Team</h2>
-      <div id="member-list"></div>
-    </section>
-    <section id="others">
-      <div id="download" class="card">
-        <h1>Download and Verification</h1>
-        <p>
-          The only official sources for downloading <i>You Apps</i> are
-          <i>GitHub releases</i>, <i>F-Droid</i> and <i>IzzyOnDroid</i>. The
-          download links can be found in the GitHub repository of each app. Any
-          other sources are unofficial and potentially malicious!
-        </p>
-        <p>
-          If you're downloading via <i>GitHub releases</i> or
-          <i>IzzyOnDroid</i>, please make sure to verify the checksums of the
-          signing certificates.
-        </p>
-        <div id="checksums">
-          <span
-            >SHA-1:
-            <pre>1ea53902b793f98f034a1da7c9aaaf87eb184f18</pre>
-          </span>
-          <span
-            >SHA-256:
-            <pre>
-b3bc73b117df5dfe38130c6c2b946852ae7088557fe8e433f0d9983a6b55cc95</pre
-            >
-          </span>
-        </div>
-      </div>
-      <div id="contributing" class="card">
-        <h1>Contribute now!</h1>
-        <p>All contributions are very welcome!</p>
-        <ul>
-          <li>
-            Feel free to join the
-            <a href="https://matrix.to/#/#you-apps:matrix.org">Matrix Room</a>
-            for discussions about the app.
-          </li>
-          <li>
-            Bug reports and feature requests can be submitted to
-            <a href="https://github.com/you-apps">our repository</a>
-            (please make sure to fill out all the requested information
-            properly!).
-          </li>
-          <li>
-            If you are a developer and wish to contribute to the app, please
-            <strong>fork</strong> the project and submit a
-            <a href="https://help.github.com/articles/about-pull-requests/"
-              >pull request</a
-            >.
-          </li>
-        </ul>
-      </div>
-    </section>
-    <footer>
-      <span> <i>2023 - now</i> &nbsp; You Apps GPL-3.0 LICENSED</span>
-      <span id="social-links">
-        <a href="https://github.com/you-apps"
-          ><img src="assets/github.svg" alt="GitHub icon"
-        /></a>
-        <a href="https://matrix.to/#/#you-apps:matrix.org"
-          ><img src="assets/matrix.svg" alt="Matrix icon"
-        /></a>
-      </span>
-    </footer>
-  </body>
+	<body>
+		<header>
+			<a href="/"
+				><img
+					src="https://raw.githubusercontent.com/you-apps/Artwork/main/app-icons/new/YouApps.svg"
+					alt="You Apps icon"
+				></a
+			>
+			<nav>
+				<a href="#hero">About</a>
+				<a href="#apps">Apps</a>
+				<a href="#team">Team</a>
+				<a href="#contributing">Contributing</a>
+			</nav>
+		</header>
+		<section id="hero">
+			<div id="desc">
+				<h1>No Ads, no trackers, just You</h1>
+				<p>
+					A collection of open source Android apps, developed with privacy in
+					mind and beautiful design. No need to choose between privacy and a
+					modern UI when you can have both at the same time. Get them now via
+					GitHub or F-Droid.
+				</p>
+				<span id="hero-links">
+					<a class="material-button" href="https://github.com/you-apps"
+						>Source code</a
+					>
+					<a class="material-button" href="https://liberapay.com/bnyro"
+						>Donate</a
+					>
+				</span>
+			</div>
+			<img
+				src="https://raw.githubusercontent.com/you-apps/Artwork/main/app-icons/new/YouApps.svg"
+				alt="You Apps icon"
+			>
+		</section>
+		<section id="apps">
+			<h2>Apps</h2>
+			<div id="app-list"></div>
+			<noscript>Enable JavaScript to view the apps</noscript>
+		</section>
+		<section id="team">
+			<h2>Team</h2>
+			<div id="member-list"></div>
+		</section>
+		<section id="others">
+			<div id="download" class="card">
+				<h1>Download and Verification</h1>
+				<p>
+					The only official sources for downloading <i>You Apps</i>are
+					<i
+						>GitHub releases</i
+					>, <i>F-Droid</i>and <i>IzzyOnDroid</i>. The download links can be
+					found in the GitHub repository of each app. Any other sources are
+					unofficial and potentially malicious!
+				</p>
+				<p>
+					If you're downloading via <i>GitHub releases</i>or
+					<i
+						>IzzyOnDroid</i
+					>, please make sure to verify the checksums of the signing
+					certificates.
+				</p>
+				<div id="checksums">
+					<span
+						>SHA-1:
+						<pre>1ea53902b793f98f034a1da7c9aaaf87eb184f18</pre>
+					</span>
+					<span
+						>SHA-256:
+						<pre
+						>b3bc73b117df5dfe38130c6c2b946852ae7088557fe8e433f0d9983a6b55cc95</pre>
+					</span>
+				</div>
+			</div>
+			<div id="contributing" class="card">
+				<h1>Contribute now!</h1>
+				<p>All contributions are very welcome!</p>
+				<ul>
+					<li>
+						Feel free to join the
+						<a href="https://matrix.to/#/#you-apps:matrix.org">Matrix Room</a>
+						for discussions about the app.
+					</li>
+					<li>
+						Bug reports and feature requests can be submitted to
+						<a href="https://github.com/you-apps">our repository</a>
+						(please make sure to fill out all the requested information
+						properly!).
+					</li>
+					<li>
+						If you are a developer and wish to contribute to the app, please
+						<strong>fork</strong>the project and submit a<a
+							href="https://help.github.com/articles/about-pull-requests/"
+							>pull request</a
+						>.
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer>
+			<span>
+				<i>2023 - now</i>&nbsp; You Apps GPL-3.0 LICENSED</span
+			>
+			<span id="social-links">
+				<a href="https://github.com/you-apps"
+					><img src="assets/github.svg" alt="GitHub icon"></a
+				>
+				<a href="https://matrix.to/#/#you-apps:matrix.org"
+					><img src="assets/matrix.svg" alt="Matrix icon"></a
+				>
+			</span>
+		</footer>
+		<script>
+    const $ = (tag, props = {}, ...children) => {
+      const el = document.createElement(tag);
+      Object.assign(el, props);
+
+      children.forEach(child => el.append(
+        Array.isArray(child)
+          ? $(child[0], child[1], ...child.slice(2))
+          : (child instanceof Node ? child : String(child))
+      ));
+
+      return el;
+    };
+
+    const fetchData = path => fetch(`https://api.github.com/orgs/you-apps/${path}`).then(res => res.json());
+
+    Promise.all([fetchData('repos'), fetchData('members')])
+      .then(([repos, members]) => {
+        document.querySelector("#apps > div").replaceChildren(...repos
+          .filter(repo => repo.name.endsWith("You") && !repo.archived)
+          .sort((a, b) => b.stargazers_count - a.stargazers_count)
+          .map(({name, html_url, description, stargazers_count}) =>
+            $('a', {className: 'card', href: html_url},
+              ['img', {
+                alt: `${name} icon`,
+                src: `https://raw.githubusercontent.com/you-apps/${name}/main/fastlane/metadata/android/en-US/images/icon.png`
+              }],
+              ['div', {},
+                ['h3', {textContent: name}],
+                ['p', {textContent: description}]
+              ],
+              ['span', {className: 'stars'},
+                ['img', {src: 'assets/star.svg', alt: 'Star icon'}],
+                ` ${stargazers_count}`
+              ]
+            )
+          )
+        );
+
+        document.querySelector("#team > div").replaceChildren(...members
+          .map(({login, html_url, avatar_url}) =>
+            $('a', {className: 'card', href: html_url},
+              ['img', {src: avatar_url, alt: `${login}'s avatar`}],
+              ['h3', {textContent: login}]
+            )
+          )
+        );
+      })
+      .catch(() => {
+        document.querySelector("#apps > div").textContent = "Failed to load apps.";
+        document.querySelector("#team > div").textContent = "Failed to load team members.";
+      });
+  </script>
+	</body>
 </html>
